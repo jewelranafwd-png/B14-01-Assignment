@@ -65,3 +65,44 @@ nav a{
     margin-bottom: 150px;
 }
 /* speaker-card section */
+.speaker-section{
+    padding: 80px 60px;
+    text-align: center;
+}
+.speaker-conatiner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.speaker-section h2{
+    margin: 50px auto;
+    font-size:60px;
+}
+.speaker-card img{
+    width: 100%;
+    object-fit: cover;   
+}
+.speaker-card{
+    border: 1px solid #E5E7EB;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.speaker-card .card-text{
+    text-align: left;
+    padding: 24px;
+}
+.p-blue{
+    color:#2563EB;
+    font-size: 12px;
+    font-weight:600;
+    padding: 5px 0;
+}
+.card-text h4{
+    color: #0D1B2A;
+    font-size:20px;
+    padding: 5px 0;
+}
+.card-text p{
+    color: #575757;
+    font-size: 14px;
+}
